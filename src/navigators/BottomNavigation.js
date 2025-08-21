@@ -33,7 +33,7 @@ const BottomNavigation = () => {
         },
       }}>
       <Tab.Screen
-        name="HomeTab"
+        name="HomeTabs"
         component={Home}
         options={{
           tabBarIcon: HomeIcon,
@@ -47,7 +47,7 @@ const BottomNavigation = () => {
         }}
       />
       <Tab.Screen
-        name="Profile"
+        name="Profile "
         component={Profile}
         options={{
           tabBarIcon: ProfileIcon,

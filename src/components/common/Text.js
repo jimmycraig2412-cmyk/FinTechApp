@@ -19,7 +19,7 @@ const useStyles = (title, content, small, medium) => {
   const {colors} = useTheme();
 
   let style = {
-    fontSize: 16,
+    fontSize: 17,
   };
 
   let titleStyle = {
@@ -35,7 +35,7 @@ const useStyles = (title, content, small, medium) => {
   };
 
   let smallStyle = {
-    fontSize: 13,
+    fontSize: 14,
     color: colors.secondaryText,
   };
 
